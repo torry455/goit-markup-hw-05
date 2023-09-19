@@ -83,6 +83,11 @@ img {
     padding-bottom: 120px;
 }
 
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
 
 /*Header*/
 
@@ -680,3 +685,44 @@ address {
 .social-accent-footer {
     fill: var(--c-background);
 }
+
+/* Modal */
+.backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal {
+    position: relative;
+    width: 408px;
+    height: 584px;
+    background-color: var(--c-background-light);
+    padding: 48px;
+    transform: scale(1);
+    transition: transform 250ms ease-in-out;
+}
+
+.backdrop.is-hidden .modal {
+    transform: scale(0);
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+/* END Modal */
