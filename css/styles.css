@@ -686,16 +686,51 @@ address {
     fill: var(--c-background);
 }
 
-.footer-modal {
+.footer-input {
     font-size: 16px;
     font-weight: 500;
     line-height: 0.7;
+}
+
+.subscribe-text {
     margin-bottom: 16px;
     color: var(--c-background-light);
 }
 
+.footer-input {
+    display: block;
+}
 
+.footer-email {
+    min-width: 264px;
+    min-height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--c-background-light);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    background-color: var(--c-brand);
+}
 
+.subscribe-form {
+    display: flex;
+    max-width: 453px;
+    padding: 0;
+    gap: 24px;
+}
+
+.modal-button-wrap {
+    display: inline-flex;
+    padding: 8px 24px;
+    align-items: center;
+    /* max-width: 77px;
+    max-height: 24px; */
+}
+
+.footer-button {
+    max-width: 156px;
+    max-height: 40px;
+    border-radius: 4px;
+        background: var(--c-logo);
+}
 
 /* Modal */
 .backdrop {
