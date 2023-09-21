@@ -471,14 +471,26 @@
         </a>
     </li>
 </ul>
+
+<h2 class="footer-modal">Subscribe</h2>
+
+<div>
+    
+</div>
+<label class="footer-input" for="user-email">Email</label>
+<div class="footer-input-wrap">
+    <input class="modal-input modal-input-email" id="user-email" type="email" name="user-email" 
+    placeholder="E-mail"/>
+
 </div>
         </div>
     </footer>
 
 <!-- Modal -->
 
-<div class="backdrop is-open" data-modal>
+<div class="backdrop" data-modal>
     <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>X
             <svg class="modal-input-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close">
                 </use>
@@ -532,9 +544,9 @@
         </svg>
         </div>
     </div>
-    <div class="modal-field">
+    <div>
         <label 
-        class="modal-textarea" for="user-comment">Comment</label>
+        class="modal-input" for="user-comment">Comment</label>
         <textarea 
         id="user-comment" name="user-comment" placeholder="Enter text"></textarea>
     </div>

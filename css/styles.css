@@ -686,6 +686,17 @@ address {
     fill: var(--c-background);
 }
 
+.footer-modal {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.7;
+    margin-bottom: 16px;
+    color: var(--c-background-light);
+}
+
+
+
+
 /* Modal */
 .backdrop {
     position: fixed;
@@ -695,7 +706,8 @@ address {
     align-items: center;
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.4);
-    opacity: 1;
+    /* opacity: 1; */
+    visibility: visible;
     transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
     opacity: 0;
         visibility: hidden;
@@ -703,33 +715,37 @@ address {
     
 }
 
-.backdrop .is-open {
+.is-hidden {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+}
+
+/* .is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+} */
 
-.modal-toggle:checked+.backdrop {
+/* .modal-toggle:checked+.backdrop {
     opacity: 1;
     visibility: visible;
-}
+} */
 
 .icon-close {
     size: 8px 8px;
     
 }
 
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
+
 
 .modal {
     position: relative;
     border-radius: 4px;
-    width: 408px;
-    height: 584px;
+    width: 100%;
+    height: 100%;
+    max-width: 408px;
+    max-height: 584px;
     background-color: var(--c-background-light);
     padding: 80px 516px 12px;
     transform: scale(1);
@@ -766,9 +782,14 @@ font-size: 16px;
     transition: fill 250ms;
 }
 
-.modal-input-icon:focus {
+/* .modal-input-icon:focus {
     outline: none;
     border-color: var(--c-logo);
+    fill: var(--c-logo);
+} */
+
+.modal-input + svg {
+    border: 1px solid var(--c-logo);
     fill: var(--c-logo);
 }
 
@@ -777,7 +798,9 @@ font-size: 16px;
 }
 
 .modal-close {
-    
+    position: absolute;
+    top: 24px;
+    right: 24px;
 }
 
 
