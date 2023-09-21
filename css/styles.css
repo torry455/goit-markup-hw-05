@@ -769,6 +769,7 @@ font-size: 16px;
 .modal-input-icon:focus {
     outline: none;
     border-color: var(--c-logo);
+    fill: var(--c-logo);
 }
 
 .backdrop.is-hidden .modal {
