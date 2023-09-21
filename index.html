@@ -480,7 +480,7 @@
 <div class="backdrop is-open" data-modal>
     <div class="modal">
         <button class="modal-close" type="button" data-modal-close>
-            <svg>
+            <svg class="modal-input-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close">
                 </use>
             </svg>
@@ -490,9 +490,16 @@
 <fieldset>
     <legend class="modal-label is-hidden">Personal information</legend>
     <div class="modal-field">
+        
         <label class="modal-input" for="user-name">Name</label>
+
         <div class="modal-input-wrap">
-        <input class="modal-input" id="user-name" type="text" name="user-name" placeholder="Name" />
+        <input 
+        class="modal-input modal-input-name" id="user-name" 
+        type="text" 
+        name="user-name" 
+        placeholder="Name" />
+
         <svg class="modal-input-icon" width="32" height="32">
             <use href="./images/icons.svg#icon-person"></use>
         </svg>
@@ -501,16 +508,26 @@
     <div class="modal-field">
         <label class="modal-input" for="user-tel">Phone number</label>
         <div class="modal-input-wrap">
-        <input id="user-tel" type="tel" name="user-tel" placeholder="Phone number" />
+        <input 
+        class="modal-input modal-input-number" id="user-tel" 
+        type="tel" 
+        name="user-tel" placeholder="Phone number" />
+
         <svg class="modal-input-icon" width="32" height="32">
             <use href="./images/icons.svg#icon-phone"></use>
         </svg>
         </div>
     </div>
+
     <div class="modal-field">
         <label class="modal-input" for="user-email">Email</label>
         <div class="modal-input-wrap">
-        <input id="user-email" type="email" name="user-email" placeholder="Enter your email" />
+        <input 
+        class="modal-input modal-input-email" id="user-email" 
+        type="email" 
+        name="user-email" 
+        placeholder="Enter your email" />
+
         <svg class="modal-input-icon" width="32" height="32">
             <use href="./images/icons.svg#icon-email"></use>
         </svg>

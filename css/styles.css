@@ -750,7 +750,8 @@ font-size: 16px;
 
 .modal-input-icon {
     position: absolute;
-    left: 16px;
+    right: 32px;
+    padding: 0;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms;
@@ -769,12 +770,22 @@ font-size: 16px;
     display: block;
     width: 100%;
     max-width: 360px;
+    min-height: 40px;
     color: var(--c-primary-light);
     font-size: 12px;
     font-weight: 400;
     line-height: 0.8;
     letter-spacing: 0.48px;
     margin-bottom: 4px;
+}
+
+.modal-textarea:focus,
+.modal-input:focus {
+    outline: none;
+    border-color: var(--c-logo);
+}
+
+.modal-input-name {
 }
 
 .modal-field {
