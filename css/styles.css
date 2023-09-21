@@ -750,7 +750,7 @@ font-size: 16px;
 
 .modal-input-icon {
     position: absolute;
-    right: 32px;
+    left: 16px;
     padding: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -768,10 +768,12 @@ font-size: 16px;
 
 .modal-input {
     display: block;
+    border-radius: 4px;
     width: 100%;
     max-width: 360px;
     min-height: 40px;
     color: var(--c-primary-light);
+    border: 1px solid var(rgba(46, 47, 66, 0.4));
     font-size: 12px;
     font-weight: 400;
     line-height: 0.8;
