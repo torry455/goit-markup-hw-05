@@ -696,8 +696,17 @@ address {
     justify-content: center;
     background-color: rgba(46, 47, 66, 0.4);
     opacity: 1;
-    visibility: visible;
     transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
+    opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    
+}
+
+.backdrop .is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal-toggle:checked+.backdrop {
@@ -757,6 +766,11 @@ font-size: 16px;
     transition: fill 250ms;
 }
 
+.modal-input-icon:focus {
+    outline: none;
+    border-color: var(--c-logo);
+}
+
 .backdrop.is-hidden .modal {
     transform: scale(0);
 }
@@ -787,8 +801,7 @@ font-size: 16px;
     border-color: var(--c-logo);
 }
 
-.modal-input-name {
-}
+
 
 .modal-field {
     margin-bottom: 8px;
