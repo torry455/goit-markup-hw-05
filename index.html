@@ -477,51 +477,63 @@
 
 <!-- Modal -->
 
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-open" data-modal>
     <div class="modal">
         <button class="modal-close" type="button" data-modal-close>x</button>
-<h2>Leave your contacts and we will call you back</h2>
-<form name="contact-form">
+<h2 class="modal-title">Leave your contacts and we will call you back</h2>
+<form name="contact-form" autocomplete="off">
 <fieldset>
-    <legend>Name</legend>
-    <div>
-        <label class="visually-hidden" for="user-name">Name</label>
-        <input id="user-name" type="text" name="user-name" placeholder="Name" />
+    <legend class="modal-label is-hidden">Personal information</legend>
+    <div class="modal-field">
+        <label class="modal-input" for="user-name">Name</label>
+        <div class="modal-input-wrap">
+        <input class="modal-input" id="user-name" type="text" name="user-name" placeholder="Name" />
+        <svg class="modal-input-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-person"></use>
+        </svg>
+        </div>
     </div>
-    <div>
-        <label for="user-tel">Phone number</label>
+    <div class="modal-field">
+        <label class="modal-input" for="user-tel">Phone number</label>
+        <div class="modal-input-wrap">
         <input id="user-tel" type="tel" name="user-tel" placeholder="Phone number" />
+        <svg class="modal-input-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-phone"></use>
+        </svg>
+        </div>
     </div>
-    <div>
-        <label for="user-email">Email</label>
+    <div class="modal-field">
+        <label class="modal-input" for="user-email">Email</label>
+        <div class="modal-input-wrap">
         <input id="user-email" type="email" name="user-email" placeholder="Enter your email" />
+        <svg class="modal-input-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-email"></use>
+        </svg>
+        </div>
     </div>
-</fieldset>
-
-<fieldset>
-    <legend class="visually-hidden">Additional information</legend>
     <div>
-        <label for="user-comment">Comment</label>
+        <label class="modal-input" for="user-comment">Comment</label>
         <textarea id="user-comment" name="user-comment" placeholder="Enter text"></textarea>
     </div>
 </fieldset>
 
 <fieldset>
-    <legend class="visually-hidden">Terms and conditions</legend>
     <div>
         <label>
-            <input type="checkbox" name="terms-conditions" value="acceptPrivacyPolicy" checked />
+            <input class="modal-checkbox" type="checkbox" name="terms-conditions" value="acceptPrivacyPolicy" />
             I accept the terms and conditions of the Privacy Policy
         </label>
     </div>
 </fieldset>
 
-<button type="submit">Submit</button>
+<button class="modal-button button-primary" type="submit">
+    Submit
+</button>
 </form>
 </div>
 </div>
 
-    <script src="./js/modal.js"></script>
+
 
 </body>
 
