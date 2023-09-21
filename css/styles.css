@@ -705,6 +705,11 @@ address {
     visibility: visible;
 }
 
+.icon-close {
+    size: 8px 8px;
+    
+}
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -712,7 +717,6 @@ address {
 }
 
 .modal {
-    width: 100%;
     position: relative;
     border-radius: 4px;
     width: 408px;
@@ -738,13 +742,15 @@ font-size: 16px;
     letter-spacing: 0.32px;
 }
 
+
+
 .modal-input-wrap {
     position: relative;
 }
 
 .modal-input-icon {
     position: absolute;
-    left: 24px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms;
@@ -755,11 +761,7 @@ font-size: 16px;
 }
 
 .modal-close {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    cursor: pointer;
-    margin-bottom: 24px;
+    
 }
 
 
