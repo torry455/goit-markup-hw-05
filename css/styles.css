@@ -951,6 +951,7 @@ address {
 
 .modal-checkbox-icon {
     max-width: 16px;
+    background-color: transparent;
 }
 
 .modal-checkbox-label {
