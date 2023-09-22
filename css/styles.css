@@ -729,13 +729,6 @@ address {
                 padding-left: 16px;
 }
 
-/* .subscribe-form {
-    display: flex;
-    max-width: 453px;
-    padding: 0;
-    gap: 24px;
-} */
-
 .email-input {
     display: flex;
         max-width: 453px;
@@ -745,20 +738,40 @@ address {
 }
 
 .modal-button-wrap {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    /* max-width: 77px;
-    max-height: 24px; */
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe-button-text {
+    position: relative;
+    color: var(--c-background-light);
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 0.7;
+        letter-spacing: 0.64px;
 }
 
 .footer-button {
     display: block;
-    max-width: 156px;
-    max-height: 40px;
+    min-width: 156px;
+    min-height: 40px;
     border-radius: 4px;
         background: var(--c-logo);
+        /* margin-right: 16px; */
+        /* padding: 8px 24px; */
         
+}
+
+.modal-icon {
+    padding: 0;
+    position: absolute;
+
 }
 
 /* Modal */
