@@ -697,11 +697,21 @@ address {
 .subscribe-text {
     margin-bottom: 16px;
     color: var(--c-background-light);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-input {
     display: block;
     margin-left: 80px;
+}
+
+.email-input {
+    display: flex;
+    max-width: 453px;
+    max-height: 40px;
+    padding: 0;
+    gap: 24px;
 }
 
 .footer-email {
@@ -710,37 +720,46 @@ address {
     border-radius: 4px;
     border: 1px solid var(--c-background-light);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
-    background-color: var(--c-brand);
-    /* font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 0.5;
-        letter-spacing: 0.48px;
-        color: var(--c-background-light); */
+    background-color: transparent; 
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    counter-reset: var(--c-background-light);
 }
 
 .footer-email::placeholder {
-        font-size: 12px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 0.5;
-                letter-spacing: 0.48px;
-                color: var(--c-background-light);
-                padding-left: 16px;
+    color: var(--c-background-light);
 }
 
-.email-input {
+.footer-button {
     display: flex;
-        max-width: 453px;
-        max-height: 40px;
-        padding: 0;
-        gap: 24px;
-}
-
-.modal-button-wrap {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    min-width: 165px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--c-background-light);
+    cursor: pointer;
+    background-color: var(--c-logo);
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-button-icon {
+    margin-left: 16px;
+
+    padding: 0;
+    top: 50%;
+    max-width: 24px;
+    max-height: 24px;
+    transition: fill 250ms;
+    fill: var(--c-background-light);
 }
 
 .subscribe-form {
@@ -757,31 +776,8 @@ address {
         letter-spacing: 0.64px;
 }
 
-.footer-button-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer-button {
-    display: block;
-    
-    max-width: 156px;
-    max-height: 40px;
-    border-radius: 4px;
-        background: var(--c-logo);
-        padding: 8px 24px;
-        margin: 0;
-}
 
-.footer-button-icon {
-    padding: 0;
-    top: 50%;
-    max-width: 24px;
-        max-height: 24px;
-        transition: fill 250ms;
-    fill: var(--c-background-light);
-}
 
 
 .subscribe-button-text {
