@@ -781,7 +781,9 @@ address {
     width: 100%;
     max-width: 360px;
     min-height: 40px;
-   
+
+        border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+    
     margin-bottom: 4px;
 }
 
@@ -808,6 +810,10 @@ font-size: 12px;
     line-height: 0.8;
     letter-spacing: 0.48px;
     
+}
+
+.text-input {
+    resize: none;
 }
 
 .text-input::placeholder {
