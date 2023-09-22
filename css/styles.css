@@ -842,11 +842,12 @@ address {
     margin-bottom: 16px;
 }
 
-/* .form-inner {
+.form-inner {
     margin-bottom: 8px;
-} */
+}
 
 .modal-inner {
+    color: var(--c-primary-light);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
