@@ -780,12 +780,10 @@ address {
     top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms;
-
-}
-
-.footer-button-icon + .button-icon {
     fill: var(--c-background-light);
 }
+
+
 
 /* Modal */
 .backdrop {
