@@ -753,7 +753,6 @@ address {
 
 .footer-button-icon {
     margin-left: 16px;
-
     padding: 0;
     top: 50%;
     max-width: 24px;
@@ -762,18 +761,11 @@ address {
     fill: var(--c-background-light);
 }
 
-.subscribe-form {
+/* .subscribe-form {
     display: flex;
     align-items: center;
-}
+} */
 
-
-
-
-
-.subscribe-button-text {
-    margin-right: 16px;
-}
 
 /* Modal */
 .backdrop {
