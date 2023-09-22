@@ -507,7 +507,7 @@
 
 <!-- Modal -->
 
-<div class="backdrop" data-modal>
+<div class="backdrop is-open" data-modal>
     <div class="modal">
         <button class="modal-close" type="button" data-modal-close>X
             <svg class="modal-input-icon" width="8" height="8">
@@ -521,7 +521,7 @@
     <legend class="modal-label is-hidden">Personal information</legend>
     <div class="modal-field">
 
-        <label class="modal-input" for="user-name">Name</label>
+        <label class="modal-inner" for="user-name">Name</label>
 
         <div class="modal-input-wrap">
         <input 
@@ -536,7 +536,7 @@
         </div>
     </div>
     <div class="modal-field">
-        <label class="modal-input" for="user-tel">Phone number</label>
+        <label class="modal-inner" for="user-tel">Phone number</label>
         <div class="modal-input-wrap">
         <input 
         class="modal-input modal-input-number" id="user-tel" 
@@ -550,7 +550,7 @@
     </div>
 
     <div class="modal-field">
-        <label class="modal-input" for="user-email">Email</label>
+        <label class="modal-inner" for="user-email">Email</label>
         <div class="modal-input-wrap">
         <input 
         class="modal-input modal-input-email" id="user-email" 
@@ -565,8 +565,8 @@
     </div>
     <div>
         <label 
-        class="modal-input" for="user-comment">Comment</label>
-        <textarea 
+        class="modal-inner" for="user-comment">Comment</label>
+        <textarea class="modal-input"
         id="user-comment" name="user-comment" placeholder="Enter text"></textarea>
     </div>
 </fieldset>
