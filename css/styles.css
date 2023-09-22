@@ -988,11 +988,21 @@ address {
         
 }
 
-.modal-checkbox-input:checked {
+.modal-checkbox-check:focus {
+    background-color: var(--c-hover);
+    stroke: var(--c-hover);
+    border: none;
+    fill: var(--c-background-light);
+
+    border: 1px solid rgba(46, 47, 66, 0.4);
+
+}
+
+/* .modal-checkbox-input:checked {
     background-color: var(--c-hover);
     border: none;
     fill: var(--c-background);
-}
+} */
 
 .privacy-policy {
     color: var(--c-logo);
