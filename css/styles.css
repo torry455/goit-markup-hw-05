@@ -883,7 +883,7 @@ address {
     border-color: var(--c-logo);
 }
 
-.modal-input + .modal-svg {
+.modal-input:focus + .modal-svg {
     fill: var(--c-logo);
 }
 
