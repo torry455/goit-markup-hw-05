@@ -977,12 +977,12 @@ address {
  }
 
 .modal-checkbox-check:hover {
-        background-color: var(--c-hover);
-        stroke: var(--c-hover);
-        border: none;
-        fill: var(--c-background-light);
-        
-        border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: var(--c-hover);
+    stroke: var(--c-hover);
+    border: none;
+    color: var(--c-background-light);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    fill: transparent;
         
 }
 
@@ -990,10 +990,9 @@ address {
     background-color: var(--c-hover);
     stroke: var(--c-hover);
     border: none;
-    fill: var(--c-background-light);
-
+    color: var(--c-background-light);
     border: 1px solid rgba(46, 47, 66, 0.4);
-
+    fill: transparent;
 }
 
 /* .modal-checkbox-input:checked {
