@@ -764,7 +764,9 @@ address {
 }
 
 .footer-button {
-    display: block;
+    display: flex;
+        justify-content: center;
+        align-items: center;
     min-width: 156px;
     min-height: 40px;
     border-radius: 4px;
@@ -777,12 +779,15 @@ address {
 .footer-button-icon {
     padding: 0;
     top: 50%;
-        transform: translateY(-50%);
+    max-width: 24px;
+        max-height: 24px;
         transition: fill 250ms;
     fill: var(--c-background-light);
 }
 
-
+.subscribe-button-text {
+    margin-right: 16px;
+}
 
 /* Modal */
 .backdrop {
