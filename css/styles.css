@@ -757,21 +757,34 @@ address {
         letter-spacing: 0.64px;
 }
 
+.footer-button-wrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-button {
     display: block;
     min-width: 156px;
     min-height: 40px;
     border-radius: 4px;
         background: var(--c-logo);
-        /* margin-right: 16px; */
-        /* padding: 8px 24px; */
+        /* margin-right: 16px; 
+        padding: 8px 24px; */
         
 }
 
-.modal-icon {
+.footer-button-icon {
     padding: 0;
     position: absolute;
+    top: 50%;
+        transform: translateY(-50%);
+        transition: fill 250ms;
 
+}
+
+.button-icon {
+    fill: var(--c-background-light);
 }
 
 /* Modal */
