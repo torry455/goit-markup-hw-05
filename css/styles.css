@@ -776,7 +776,7 @@ address {
 
 .footer-button-icon {
     padding: 0;
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms;
