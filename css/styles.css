@@ -758,7 +758,6 @@ address {
 }
 
 .footer-button-wrap {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -771,7 +770,6 @@ address {
     max-height: 40px;
     border-radius: 4px;
         background: var(--c-logo);
-        /* margin-right: 16px;  */
         padding: 8px 24px;
         margin: 0;
 }
