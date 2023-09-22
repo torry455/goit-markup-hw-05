@@ -913,16 +913,17 @@ address {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-text-input::placeholder {
-    color: rgba(46, 47, 66, 0.4);
-    font-family: var(--f-family), sans-serif;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     font-style: normal;
     font-weight: 400;
+}
+
+.modal-text-input::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    font-family: var(--f-family), sans-serif;
+
 }
 
 .modal-text-input:focus {
@@ -954,24 +955,24 @@ address {
 
 .modal-checkbox-icon {
     max-width: 16px;
+    display: inline-flex;
 }
 
 .modal-checkbox-label {
     display: inline-flex;
     max-width: 362px;
     max-height: 16px;
+    padding: 0;
     margin: 0;
     align-items: center;
     justify-content: center;
 }
   
  .modal-checkbox-check {   
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
     height: 16px;
-    margin-right: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
