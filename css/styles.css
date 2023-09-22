@@ -796,8 +796,7 @@ address {
     }
 } */
 
-.modal-input + svg {
-    border: 1px solid var(--c-logo);
+.modal-input:focus + svg {
     fill: var(--c-logo);
 }
 
