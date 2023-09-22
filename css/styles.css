@@ -883,6 +883,10 @@ address {
     border-color: var(--c-logo);
 }
 
+.modal-input + .modal-svg {
+    fill: var(--c-logo);
+}
+
 .modal-input-icon {
     position: absolute;
     left: 16px;
