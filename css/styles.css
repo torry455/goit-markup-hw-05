@@ -758,22 +758,22 @@ address {
 }
 
 .footer-button-wrap {
-    display: inline-flex;
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer-button {
-    display: flex;
-        justify-content: center;
-        align-items: center;
-    min-width: 156px;
-    min-height: 40px;
+    display: block;
+    
+    max-width: 156px;
+    max-height: 40px;
     border-radius: 4px;
         background: var(--c-logo);
-        /* margin-right: 16px; 
-        padding: 8px 24px; */
-        
+        /* margin-right: 16px;  */
+        padding: 8px 24px;
+        margin: 0;
 }
 
 .footer-button-icon {
@@ -784,6 +784,7 @@ address {
         transition: fill 250ms;
     fill: var(--c-background-light);
 }
+
 
 .subscribe-button-text {
     margin-right: 16px;
