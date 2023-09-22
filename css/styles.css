@@ -769,8 +769,7 @@ address {
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
+    inset: 0;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 0;
@@ -783,6 +782,12 @@ address {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+
+.is-close {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .modal {
@@ -928,6 +933,7 @@ address {
 }
 
 .modal-checkbox-label {
+    min-width: 362px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
