@@ -861,6 +861,8 @@ address {
 }
 
 .modal-input {
+        position: relative;
+            display: block;
     width: 100%;
     height: 40px;
     margin-bottom: 8px;
