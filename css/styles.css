@@ -231,7 +231,6 @@ address {
     ),
     url('../images/hero-image/hero-image.jpg');
     list-style: none;
-    justify-content: center; 
 }
 
 .hero-section::before {
@@ -872,10 +871,6 @@ address {
 .modal-input:focus {
     border-color: var(--c-logo);
 }
-
-/* .modal-input-name:focus + .modal-svg {
-    fill: var(--c-logo);
-} */
 
 .modal-input-icon {
     position: absolute;
