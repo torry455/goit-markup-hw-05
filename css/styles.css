@@ -767,15 +767,6 @@ address {
     align-items: center;
 }
 
-.subscribe-button-text {
-    position: relative;
-    color: var(--c-background-light);
-    font-size: 16px;
-        font-weight: 500;
-        line-height: 0.7;
-        letter-spacing: 0.64px;
-}
-
 
 
 
