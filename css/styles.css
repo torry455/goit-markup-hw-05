@@ -800,8 +800,8 @@ address {
     /* opacity: 1; */
     /* visibility: visible; */
     transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
-    opacity: 0;
-        visibility: hidden;
+    opacity: 1;
+        visibility: vissible;
         pointer-events: none;
     
 }
@@ -888,13 +888,6 @@ font-size: 12px;
     visibility: visible;
 } */
 
-.icon-close {
-    size: 8px 8px;
-    
-}
-
-
-
 
 .modal-title {
     position: relative;
@@ -928,8 +921,6 @@ font-size: 16px;
             stroke-width: 1px;
             stroke: rgba(0, 0, 0, 0.10); */
     }
-
-    
 
 .modal-input-icon {
     position: absolute;
