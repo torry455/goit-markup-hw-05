@@ -764,7 +764,6 @@ address {
 }
 
 .footer-button {
-    position: relative;
     display: block;
     min-width: 156px;
     min-height: 40px;
@@ -777,7 +776,6 @@ address {
 
 .footer-button-icon {
     padding: 0;
-    position: absolute;
     top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms;
