@@ -1007,9 +1007,6 @@ address {
 .privacy-policy {
     color: var(--c-logo);
     margin-left: 2px;
-}
-
-.privacy-policy {
     text-decoration: underline;
 }
 
@@ -1031,9 +1028,9 @@ address {
 }
 
 .modal-checkbox-input:checked + .text-policy .modal-checkbox-check {
-    background-color: var(--c-background-ocean);
+    background-color: var(--c-hover);
     border: none;
-    fill: var(--c-cloud);
+    fill: var(--c-modal);
 }
 
 /* END Modal */
