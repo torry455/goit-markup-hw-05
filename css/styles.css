@@ -785,6 +785,11 @@ address {
     margin-bottom: 4px;
 }
 
+.text-input {
+    min-height: 120px;
+    
+}
+
 /* @media print {
     .modal-content {
         margin-left: 38px;
@@ -803,6 +808,7 @@ font-size: 12px;
     font-weight: 400;
     line-height: 0.8;
     letter-spacing: 0.48px;
+    
 }
 
 /* .modal-toggle:checked+.backdrop {
@@ -846,14 +852,12 @@ font-size: 16px;
         top: 50%;
         transform: translateY(-50%);
         transition: fill 250ms;
-      
+        /* fill: var(--c-header);
+            stroke-width: 1px;
+            stroke: rgba(0, 0, 0, 0.10); */
     }
 
-.modal-close-icon {
-fill: var(--c-header);
-            stroke-width: 1px;
-            stroke: rgba(0, 0, 0, 0.10);
-}
+    
 
 .modal-input-icon {
     position: absolute;
