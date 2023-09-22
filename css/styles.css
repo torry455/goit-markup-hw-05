@@ -799,15 +799,22 @@ address {
     background-color: rgba(46, 47, 66, 0.4);
     /* opacity: 1; */
     /* visibility: visible; */
-    transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
-    opacity: 1;
-        visibility: visible;
+    /* transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out; */
+    opacity: 0;
+        visibility: hidden;
         pointer-events: none;
     
 }
 
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
 .modal {
     position: relative;
+    display: none;
     opacity: 1;
     border-radius: 4px;
     width: 100%;
@@ -820,17 +827,29 @@ address {
     transition: transform 250ms ease-in-out;
 }
 
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+.backdrop.is-hidden .modal {
+    transform: scale(0);
 }
 
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+
+.modal-field {
+    margin-bottom: 8px;
 }
+
+
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+
+.modal-toggle:focus+.modal {
+    display: block;
+} 
+
+
 
 .modal-input {
     display: block;
@@ -861,7 +880,7 @@ address {
 
 .modal-inner {
     padding: 0;
-color: var(--c-primary-light);
+/* color: var(--c-primary-light); */
 font-size: 12px;
     font-weight: 400;
     line-height: 0.8;
@@ -943,11 +962,7 @@ font-size: 16px;
     transform: scale(0);
 }
 
-.modal-close {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-}
+
 
 
 
