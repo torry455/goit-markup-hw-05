@@ -783,7 +783,7 @@ address {
 
 }
 
-.button-icon {
+.footer-button-icon .button-icon {
     fill: var(--c-background-light);
 }
 
