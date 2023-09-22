@@ -951,6 +951,13 @@ address {
 
 .modal-checkbox-icon {
     max-width: 16px;
+}
+
+.modal-checkbox-icon:focus {
+    background-color: transparent;
+}
+
+.modal-checkbox-icon:focus {
     background-color: transparent;
 }
 
