@@ -918,6 +918,7 @@ address {
     letter-spacing: 0.04em;
     font-style: normal;
     font-weight: 400;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-text-input::placeholder {
@@ -973,7 +974,7 @@ address {
   
  .modal-checkbox-check {   
     position: absolute;
-    
+    left: 24px;
     width: 16px;
     height: 16px;
     margin-right: 8px;
