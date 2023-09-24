@@ -987,19 +987,21 @@ address {
 
 .modal-checkbox-check:hover {
     background-color: var(--c-hover);
-    stroke: var(--c-background-light);
+    /* stroke: var(--c-background-light); */
     border: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    fill: var(--c-hover);
+    /* fill: var(--c-hover); */
+    fill: var(--c-background-light);
         
 }
 
 .modal-checkbox-check:focus {
     background-color: var(--c-hover);
-    stroke: var(--c-background-light);
+    /* stroke: var(--c-background-light); */
     border: none;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    fill: var(--c-hover);
+    /* fill: var(--c-hover); */
+    fill: var(--c-background-light);
 }
 
 /* .modal-checkbox-input:checked {
