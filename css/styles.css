@@ -980,10 +980,6 @@ address {
 
  }
 
-.modal-checkbox-label span.modal-checkbox-check {
-    display: inline-flex;
-}
-
 .modal-checkbox-check:hover {
      background-color: var(--c-hover);
      fill: var(--c-background-light);
