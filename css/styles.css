@@ -895,10 +895,6 @@ address {
     outline: none;
 }
 
-/* .modal-input-icon:focus {
-    fill: var(--c-logo);
-} */
-
 .modal-comment-inner{
     margin-bottom: 16px
 }
@@ -983,6 +979,10 @@ address {
     fill: transparent;
 
  }
+
+.modal-checkbox-label span.modal-checkbox-check {
+    display: inline-flex;
+}
 
 .modal-checkbox-check:hover {
      background-color: var(--c-hover);
