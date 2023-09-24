@@ -943,8 +943,6 @@ address {
 }
 
 .modal-checkbox-label {
-    /* display: flex; */
-    /* border: none; */
     min-width: 326px;
     margin-left: 24px;
     font-size: 12px;
@@ -954,10 +952,6 @@ address {
 }
 
 .modal-checkbox-icon {
-    /* min-width: 16px;
-    min-height: 16px;
-    height: 100%;
-    width: 100%; */
     display: inline-flex;
     position: absolute;
     border: none;
@@ -968,20 +962,12 @@ address {
 
 .modal-checkbox-icon:hover {
     background-color: var(--c-hover);
-    /* stroke: var(--c-background-light); */
-    border: none;
-    /* border: 1px solid rgba(46, 47, 66, 0.4); */
-    /* fill: var(--c-hover); */
     fill: var(--c-background-light);
 
 }
 
 .modal-checkbox-icon:focus {
     background-color: var(--c-hover);
-    /* stroke: var(--c-background-light); */
-    border: none;
-    /* border: 1px solid rgba(46, 47, 66, 0.4); */
-    /* fill: var(--c-hover); */
     fill: var(--c-background-light);
 }
 
@@ -990,7 +976,6 @@ address {
     max-width: 362px;
     max-height: 16px;
     padding: 0;
-    /* margin: 0; */
     align-items: center;
 }
   
@@ -1009,29 +994,12 @@ address {
 
  .modal-checkbox-check:hover {
      background-color: var(--c-hover);
-     /* stroke: var(--c-background-light);
-     border: none;
-     border: 1px solid rgba(46, 47, 66, 0.4);
-     fill: var(--c-hover);
-     fill: var(--c-background-light); */
-
+    
  }
 
  .modal-checkbox-check:focus {
      background-color: var(--c-hover);
-     /* stroke: var(--c-background-light);
-     border: none;
-     border: 1px solid rgba(46, 47, 66, 0.4);
-     fill: var(--c-hover);
-     fill: var(--c-background-light); */
  }
-
-
-/* .modal-checkbox-input:checked {
-    background-color: var(--c-hover);
-    border: none;
-    fill: var(--c-background);
-} */
 
 .privacy-policy {
     margin-left: 8px;
