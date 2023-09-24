@@ -984,22 +984,21 @@ address {
 
  }
 
+.modal-checkbox-check:hover {
+     background-color: var(--c-hover);
+     fill: var(--c-background-light);
 
- .modal-checkbox-input:checked + .modal-checkbox-check {
+ }
+
+ .modal-checkbox-check:focus {
+     background-color: var(--c-hover);
+     fill: var(--c-background-light);
+ }
+
+ .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
     background-color: var(--c-hover);
     border: none;
     fill: var(--c-background);
- }
-
-  .modal-checkbox-icon:hover + .modal-checkbox-check:hover {
-     background-color: var(--c-hover);
-     fill: var(--c-background-light);
-
- }
-
- .modal-checkbox-icon:focus +  .modal-checkbox-check:focus {
-     background-color: var(--c-hover);
-     fill: var(--c-background-light);
  }
 
 .privacy-policy {
