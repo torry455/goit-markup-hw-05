@@ -948,8 +948,6 @@ address {
 }
 
 .modal-checkbox-label {
-    /* display: flex;
-    align-items: center; */
     color: var(--c-primary-light);
     max-height: 16px;
     padding: 0;
@@ -1019,10 +1017,10 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox-input:checked + .text-policy .modal-checkbox-check {
+/* .modal-checkbox-input:checked + .text-policy .modal-checkbox-check {
     background-color: var(--c-hover);
     border: none;
     fill: var(--c-modal);
-}
+} */
 
 /* END Modal */
