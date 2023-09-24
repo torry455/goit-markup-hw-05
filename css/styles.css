@@ -952,7 +952,6 @@ address {
 }
 
 .modal-checkbox-icon {
-    display: inline-flex;
     position: absolute;
     border: none;
         top: 50%;
@@ -970,6 +969,9 @@ address {
 }
   
  .modal-checkbox-check {   
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     left: 24px;
     width: 16px;
