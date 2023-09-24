@@ -929,7 +929,6 @@ address {
 
 .modal-checkbox {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 24px;
 }
@@ -960,7 +959,6 @@ address {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-left: 8px;
     min-width: 326px;
     margin-left: 24px;
 }
