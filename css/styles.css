@@ -928,34 +928,30 @@ address {
 }
 
 .modal-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 24px;
 }
 
-.modal-checkbox + .modal-checkbox-check {
+/* .modal-checkbox + .modal-checkbox-check {
     position: absolute;
-}
+} */
 
-.modal-checkbox-label {
-    min-width: 326px;
-    margin-left: 24px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--c-primary-light);
-}
+
 
 .modal-checkbox-icon {
     position: absolute;
     border: none;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-
 .modal-checkbox-label {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+    color: var(--c-primary-light);
     max-height: 16px;
     padding: 0;
     font-family: Roboto;
@@ -964,6 +960,9 @@ address {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    margin-left: 8px;
+    min-width: 326px;
+    margin-left: 24px;
 }
   
  .modal-checkbox-check {   
