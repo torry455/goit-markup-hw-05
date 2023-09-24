@@ -963,6 +963,25 @@ address {
         transform: translate(-50%, -50%);
 }
 
+.modal-checkbox-icon:hover {
+    background-color: var(--c-hover);
+    /* stroke: var(--c-background-light); */
+    border: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    /* fill: var(--c-hover); */
+    fill: var(--c-background-light);
+
+}
+
+.modal-checkbox-icon:focus {
+    background-color: var(--c-hover);
+    /* stroke: var(--c-background-light); */
+    border: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    /* fill: var(--c-hover); */
+    fill: var(--c-background-light);
+}
+
 .modal-checkbox-label {
     display: inline-flex;
     max-width: 362px;
@@ -985,24 +1004,25 @@ address {
 
  }
 
-.modal-checkbox-check:hover {
-    background-color: var(--c-hover);
-    /* stroke: var(--c-background-light); */
-    border: none;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    /* fill: var(--c-hover); */
-    fill: var(--c-background-light);
-        
-}
+ .modal-checkbox-check:hover {
+     background-color: var(--c-hover);
+     /* stroke: var(--c-background-light);
+     border: none;
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     fill: var(--c-hover);
+     fill: var(--c-background-light); */
 
-.modal-checkbox-check:focus {
-    background-color: var(--c-hover);
-    /* stroke: var(--c-background-light); */
-    border: none;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    /* fill: var(--c-hover); */
-    fill: var(--c-background-light);
-}
+ }
+
+ .modal-checkbox-check:focus {
+     background-color: var(--c-hover);
+     /* stroke: var(--c-background-light);
+     border: none;
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     fill: var(--c-hover);
+     fill: var(--c-background-light); */
+ }
+
 
 /* .modal-checkbox-input:checked {
     background-color: var(--c-hover);
