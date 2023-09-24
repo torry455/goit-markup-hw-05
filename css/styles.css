@@ -954,10 +954,10 @@ address {
 }
 
 .modal-checkbox-icon {
-    min-width: 16px;
+    /* min-width: 16px;
     min-height: 16px;
     height: 100%;
-    width: 100%;
+    width: 100%; */
     display: inline-flex;
     position: absolute;
     border: none;
