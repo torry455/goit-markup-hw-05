@@ -956,6 +956,7 @@ address {
 
 .modal-checkbox-icon {
     max-width: 16px;
+    width: 100%;
     display: inline-flex;
     position: absolute;
         top: 50%;
@@ -967,7 +968,7 @@ address {
     background-color: var(--c-hover);
     /* stroke: var(--c-background-light); */
     border: none;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    /* border: 1px solid rgba(46, 47, 66, 0.4); */
     /* fill: var(--c-hover); */
     fill: var(--c-background-light);
 
@@ -977,7 +978,7 @@ address {
     background-color: var(--c-hover);
     /* stroke: var(--c-background-light); */
     border: none;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    /* border: 1px solid rgba(46, 47, 66, 0.4); */
     /* fill: var(--c-hover); */
     fill: var(--c-background-light);
 }
