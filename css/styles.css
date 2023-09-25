@@ -982,6 +982,12 @@ address {
      fill: var(--c-background-light);
  }
 
+ .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
+    background-color: var(--c-hover);
+    border: none;
+    fill: var(--c-background);
+ }
+
 .privacy-policy {
     margin-left: 8px;
     color: var(--c-logo);
@@ -1006,5 +1012,10 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* 
+/* .modal-checkbox-input:checked + .text-policy .modal-checkbox-check {
+    background-color: var(--c-hover);
+    border: none;
+    fill: var(--c-modal);
+} */
+
 /* END Modal */
