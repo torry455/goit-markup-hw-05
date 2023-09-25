@@ -930,6 +930,7 @@ address {
 .modal-checkbox-wrap {
     margin-bottom: 24px;
     display: flex;
+    justify-content: center;
 }
 
 .modal-checkbox-icon {
@@ -972,7 +973,6 @@ address {
 .modal-checkbox-check:hover {
      background-color: var(--c-hover);
      fill: var(--c-background-light);
-
  }
 
  .modal-checkbox-check:focus {
