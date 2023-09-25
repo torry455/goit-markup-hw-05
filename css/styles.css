@@ -930,7 +930,7 @@ address {
 .modal-checkbox-wrap {
     margin-bottom: 24px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .modal-checkbox-icon {
