@@ -929,39 +929,30 @@ address {
 
 .modal-checkbox-wrap {
     margin-bottom: 24px;
-    display: flex;
-    justify-content: center;
 }
 
 .modal-checkbox-icon {
-    position: absolute;
     border: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .modal-checkbox-label {
     color: var(--c-primary-light);
-    max-height: 16px;
-    padding: 0;
-    margin: 0;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    min-width: 326px;
-    margin-left: 24px;
+    /* min-width: 326px;
+    margin-left: 24px; */
 }
   
  .modal-checkbox-check {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     left: 24px;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -970,15 +961,6 @@ address {
     fill: transparent;
  }
 
-.modal-checkbox-check:hover {
-     background-color: var(--c-hover);
-     fill: var(--c-background-light);
- }
-
- .modal-checkbox-check:focus {
-     background-color: var(--c-hover);
-     fill: var(--c-background-light);
- }
 
  .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
     background-color: var(--c-hover);
