@@ -959,8 +959,8 @@ address {
   
  .modal-checkbox-check {
     display: inline-flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     position: absolute;
     left: 24px;
     width: 16px;
@@ -982,11 +982,11 @@ address {
      fill: var(--c-background-light);
  }
 
- .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
+ /* .modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
     background-color: var(--c-hover);
     border: none;
     fill: var(--c-background);
- }
+ } */
 
 .privacy-policy {
     margin-left: 8px;
